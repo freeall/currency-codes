@@ -40,10 +40,3 @@ exports.country = country;
 exports.number = number;
 exports.codes = codes;
 exports.countries = countries;
-
-if (require.main !== module) return;
-console.log('Different currency codes:', codes().length);
-console.log('Different countries listed:', countries().length);
-console.log('Currency #967:', number(967));
-console.log('Currencies in Colombia:', country('colombia'));
-console.log('Data on EUR:', code('EUR'));
