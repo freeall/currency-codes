@@ -18,7 +18,7 @@ var country = function(country) {
 };
 var number = function(number) {
 	return first(data, function(c) {
-		return c.number === number;
+		return c.number === String(number);
 	});
 };
 var codes = function() {
