@@ -98,3 +98,7 @@ console.log(cc.countries());
 ]
 */
 ```
+
+# License
+
+MIT
