@@ -866,7 +866,7 @@ module.exports = [{
 	number: '949',
 	digits: 2,
 	currency: 'Turkish lira',
-	countries: ['turkey,  northern cyprus']
+	countries: ['turkey',  'northern cyprus']
 }, {
 	code: 'TTD',
 	number: '780',
