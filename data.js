@@ -919,7 +919,7 @@ module.exports = [{
 	code: 'UYI',
 	number: '940',
 	digits: 0,
-	currenc: 'Uruguay Peso en Unidades Indexadas',
+	currency: 'Uruguay Peso en Unidades Indexadas',
 	countries: ['uruguay']
 }, {
 	code: 'UYU',
