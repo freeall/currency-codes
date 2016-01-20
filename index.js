@@ -27,7 +27,7 @@ var country = function(country) {
 	country = country.toLowerCase();
 
 	return data.filter(function(c) {
-		return (c.countries || []).indexOf(country) > -1; //
+		return (c.countries || []).indexOf(country) > -1; //returns the currency information if it is valid, else return empty array.
 	});
 };
 
