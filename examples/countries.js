@@ -2,4 +2,4 @@
 
 var cc = require('../index');
 
-console.log(cc.countries());
+console.log('There are ' + cc.countries().length + ' countries in the index.');
