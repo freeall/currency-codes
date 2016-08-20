@@ -99,6 +99,31 @@ console.log(cc.countries());
 */
 ```
 
+## data
+
+``` js
+var data = require('currency-codes/data');
+console.log(data);
+
+/*
+[{
+	code: 'AED',
+	number: '784',
+	digits: 2,
+	currency: 'United Arab Emirates dirham',
+	countries: ['united arab emirates']
+}, {
+	code: 'AFN',
+	number: '971',
+	digits: 2,
+	currency: 'Afghan afghani',
+	countries: ['afghanistan']
+}, {
+	...
+*/
+```
+
+
 # License
 
 MIT
