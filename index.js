@@ -40,4 +40,3 @@ exports.country = country;
 exports.number = number;
 exports.codes = codes;
 exports.countries = countries;
-exports.data = data;
