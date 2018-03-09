@@ -27,8 +27,15 @@ var codes = function() {
   });
 };
 var numbers = function() {
-  return data.map(function(c) {
+  var items = data.map(function(c) {
     return c.number;
+  });
+
+  // handle cases where number is undefined (e.g. XFU and XBT)
+  return items.filter(function(n) {
+    if (n) {
+      return n;
+    }
   });
 };
 var countries = function() {
