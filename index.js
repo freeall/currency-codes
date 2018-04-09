@@ -1,6 +1,6 @@
-var first = require("first-match");
-var nub = require("nub");
-var data = require("./data");
+var first = require('first-match');
+var nub = require('nub');
+var data = require('./data');
 
 var code = function(code) {
   code = code.toUpperCase();
