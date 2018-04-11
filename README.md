@@ -84,6 +84,23 @@ console.log(cc.codes());
 */
 ```
 
+## numbers()
+
+``` js
+var cc = require('currency-codes');
+console.log(cc.numbers());
+
+/*
+[
+	'784',
+	'971',
+	...
+	'710',
+	'967'
+]
+*/
+```
+
 ## countries()
 
 ``` js
