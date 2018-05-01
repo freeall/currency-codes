@@ -13,7 +13,7 @@ var country = function(country) {
   country = country.toLowerCase();
 
   return data.filter(function(c) {
-    return (c.countries || []).indexOf(country) > -1;
+    return (c.countries.map(function(c) { return c.toLowerCase(); } ) || []).indexOf(country) > -1;
   });
 };
 var number = function(number) {
