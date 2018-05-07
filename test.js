@@ -1,11 +1,12 @@
 var cc = require('./index');
 var assert = require('assert');
 
-assert(cc.code('EUR').countries.length === 23);
-assert(cc.number('967').currency === 'Zambian kwacha');
-assert(cc.number(967).currency === 'Zambian kwacha');
+assert(cc.code('EUR').countries.length === 35);
+assert(cc.number('967').currency === 'Zambian Kwacha');
+assert(cc.number(967).currency === 'Zambian Kwacha');
+assert(cc.country('Colombia').length === 2);
 assert(cc.country('colombia').length === 2);
-assert(cc.codes().length === 179);
-assert(cc.countries().length === 246);
-assert(cc.numbers().length === 177);
+assert(cc.codes().length === 178);
+assert(cc.countries().length === 250);
+assert(cc.numbers().length === 178);
 assert(cc.numbers()[0] === '784');
