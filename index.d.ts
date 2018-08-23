@@ -2,6 +2,7 @@ declare module "currency-codes" {
   export interface CurrencyCodeRecord {
     code: string;
     number: number;
+    digits: number;
     currency: string;
     countries: string[];
   }
