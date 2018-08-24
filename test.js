@@ -2,6 +2,7 @@ var cc = require('./index');
 var assert = require('assert');
 
 assert(cc.code('EUR').countries.length === 35);
+assert(cc.code('IDR').digits === 2);
 assert(cc.number('967').currency === 'Zambian Kwacha');
 assert(cc.number(967).currency === 'Zambian Kwacha');
 assert(cc.country('Colombia').length === 2);
