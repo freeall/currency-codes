@@ -1,7 +1,7 @@
 {
   "name": "currency-codes",
   "types": "index.d.ts",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Lookup currency codes based on ISO 4217",
   "repository": "git://github.com/freeall/currency-codes.git",
   "keywords": [
