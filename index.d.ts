@@ -1,7 +1,7 @@
 declare module "currency-codes" {
   export interface CurrencyCodeRecord {
     code: string;
-    number: number;
+    number: string;
     digits: number;
     currency: string;
     countries: string[];
@@ -11,7 +11,7 @@ declare module "currency-codes" {
 
   export function country(country: string): CurrencyCodeRecord[];
 
-  export function number(number: number): CurrencyCodeRecord;
+  export function number(number: string): CurrencyCodeRecord;
 
   export function codes(): string[];
 
