@@ -7,11 +7,11 @@ declare module "currency-codes" {
     countries: string[];
   }
 
-  export function code(code: string): CurrencyCodeRecord;
+  export function code(code: string): CurrencyCodeRecord | undefined;
 
   export function country(country: string): CurrencyCodeRecord[];
 
-  export function number(number: string): CurrencyCodeRecord;
+  export function number(number: string): CurrencyCodeRecord | undefined;
 
   export function codes(): string[];
 
