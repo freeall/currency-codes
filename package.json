@@ -19,11 +19,14 @@
     "nub": "~0.0.0"
   },
   "devDependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "xml2js": "^0.4.23"
   },
   "scripts": {
     "test": "node test.js",
-    "iso:fetch-xml": "node scripts/fetch-iso-4217-xml.js"
+    "iso:fetch-xml": "node scripts/fetch-iso-4217-xml.js",
+    "iso:ingest-xml": "node scripts/ingest-iso-4217-xml.js",
+    "iso": "npm run iso:fetch-xml && npm run iso:ingest-xml"
   },
   "license": "MIT"
 }
