@@ -170,6 +170,9 @@ Downloaded https://www.currency-iso.org/dam/downloads/lists/list_one.xml to iso-
 
 > currency-codes@1.5.1 iso:ingest-xml currency-codes
 > node scripts/ingest-iso-4217-xml.js
+
+Ingested iso-4217-list-one.xml into data.js
+Wrote publish date to iso-4217-publish-date.js
 ```
 
 Note: You may have to manually tweak the capitalization of some country's names.
