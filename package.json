@@ -19,6 +19,7 @@
     "nub": "~0.0.0"
   },
   "devDependencies": {
+    "@gouch/to-title-case": "^2.2.1",
     "axios": "^0.19.2",
     "xml2js": "^0.4.23"
   },

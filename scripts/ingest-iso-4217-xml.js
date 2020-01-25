@@ -1,6 +1,8 @@
 const fs = require('fs');
 const xml2js = require('xml2js');
 
+require('@gouch/to-title-case');
+
 const input = 'iso-4217-list-one.xml';
 const output = 'data.js';
 
@@ -10,7 +12,7 @@ function ingestEntry(entry) {
     number: entry.CcyNbr && entry.CcyNbr._,
     digits: (entry.CcyMnrUnts && parseInt(entry.CcyMnrUnts._)) || 0,
     currency: entry.CcyNm && entry.CcyNm._,
-    countries: (entry.CtryNm && [entry.CtryNm._]) || []
+    countries: (entry.CtryNm && entry.CtryNm._ && [entry.CtryNm._.toLowerCase().toTitleCase()]) || []
   };
 }
 
