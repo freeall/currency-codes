@@ -50,11 +50,15 @@ function ingestPublishDate(data) {
   return data.ISO_4217.Pblshd;
 }
 
-fs.readFile(input, function(err, data) {
+function failOnError(err) {
   if (err) {
     console.error(err);
     process.exit(1);
   }
+}
+
+fs.readFile(input, function(err, data) {
+  failOnError(err);
 
   xml2js.parseString(
     data,
@@ -64,10 +68,7 @@ fs.readFile(input, function(err, data) {
       mergeAttrs: true
     },
     function(err, result) {
-      if (err) {
-        console.error(err);
-        process.exit(1);
-      }
+      failOnError(err);
 
       const publishDate = ingestPublishDate(result);
       const countries = ingestEntries(result);
@@ -80,10 +81,7 @@ fs.readFile(input, function(err, data) {
         'module.exports = ' + JSON.stringify(countries, null, '  ') + ';';
 
       fs.writeFile(output, data, function(err) {
-        if (err) {
-          console.error(err);
-          process.exit(1);
-        }
+        failOnError(err);
 
         console.log('Ingested ' + input + ' into ' + output);
       });
