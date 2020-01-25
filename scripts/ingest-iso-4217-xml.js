@@ -63,9 +63,9 @@ fs.readFile(input, function(err, data) {
   xml2js.parseString(
     data,
     {
-      explicitArray: false,
-      explicitCharkey: true,
-      mergeAttrs: true
+      explicitArray: false,  // turn off array wrappers around content
+      explicitCharkey: true, // put all content under a key so its easier to parse when there are attributes
+      mergeAttrs: true       // lift attributes up so they're easier to parse
     },
     function(err, result) {
       failOnError(err);
