@@ -140,6 +140,27 @@ console.log(data);
 */
 ```
 
+## ISO-4217
+
+Fetch the latest copy of ISO-4217 from the [maintainer](https://www.currency-iso.org/) and update this library's currency data file.
+
+```bash
+$ npm run iso
+
+> currency-codes@1.5.1 iso currency-codes
+> npm run iso:fetch-xml && npm run iso:ingest-xml
+
+
+> currency-codes@1.5.1 iso:fetch-xml currency-codes
+> node scripts/fetch-iso-4217-xml.js
+
+Downloaded https://www.currency-iso.org/dam/downloads/lists/list_one.xml to iso-4217-list-one.xml
+
+> currency-codes@1.5.1 iso:ingest-xml currency-codes
+> node scripts/ingest-iso-4217-xml.js
+```
+
+Note: You may have to manually tweak the capitalization of some country's names.
 
 # License
 
