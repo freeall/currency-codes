@@ -4,7 +4,8 @@ const xml2js = require('xml2js');
 require('@gouch/to-title-case');
 
 const input = 'iso-4217-list-one.xml';
-const output = 'data.js';
+const outputDataFile = 'data.js';
+const outputPublishDateFile = 'iso-4217-publish-date.js';
 
 function ingestEntry(entry) {
   return {
@@ -67,17 +68,28 @@ fs.readFile(input, function(err, data) {
       const publishDate = ingestPublishDate(result);
       const countries = ingestEntries(result);
 
-      const data = '/*\n' +
+      const preamble = '/*\n' +
         '\tFollows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html\n' +
         '\tSee https://www.currency-iso.org/dam/downloads/lists/list_one.xml\n' +
         '\tData last updated ' + publishDate + '\n' +
-        '*/\n\n' +
+        '*/\n\n';
+
+      const dataContent = preamble +
         'module.exports = ' + JSON.stringify(countries, null, '  ') + ';';
 
-      fs.writeFile(output, data, function(err) {
+      const publishDateContent = preamble +
+        'module.exports = ' + JSON.stringify(publishDate, null, '  ') + ';';
+
+      fs.writeFile(outputDataFile, dataContent, function(err) {
         failOnError(err);
 
-        console.log('Ingested ' + input + ' into ' + output);
+        console.log('Ingested ' + input + ' into ' + outputDataFile);
+      });
+
+      fs.writeFile(outputPublishDateFile, publishDateContent, function(err) {
+        failOnError(err);
+
+        console.log('Wrote publish date to ' + outputPublishDateFile);
       });
   });
 });
