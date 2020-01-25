@@ -1417,7 +1417,7 @@ module.exports = [
       "United States Minor Outlying Islands (The)",
       "United States of America (The)",
       "Virgin Islands (British)",
-      "Virgin Islands (u.s.)"
+      "Virgin Islands (U.S.)"
     ]
   },
   {
@@ -1602,7 +1602,7 @@ module.exports = [
     "countries": [
       "Benin",
       "Burkina Faso",
-      "Côte D'ivoire",
+      "Côte d'Ivoire",
       "Guinea-Bissau",
       "Mali",
       "Niger (The)",
