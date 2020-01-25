@@ -140,6 +140,18 @@ console.log(data);
 */
 ```
 
+## publishDate
+
+```js
+var cc = require('currency-codes');
+
+console.log(cc.publishDate);
+
+/*
+2018-08-29
+*/
+```
+
 ## ISO-4217
 
 Fetch the latest copy of ISO-4217 from the [maintainer](https://www.currency-iso.org/) and update this library's currency data file.
