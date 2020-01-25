@@ -18,8 +18,12 @@
     "first-match": "~0.0.1",
     "nub": "~0.0.0"
   },
+  "devDependencies": {
+    "axios": "^0.19.2"
+  },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "iso:fetch-xml": "node scripts/fetch-iso-4217-xml.js"
   },
   "license": "MIT"
 }
