@@ -40,7 +40,7 @@ function ingestEntries(data) {
     .map(ingestEntry)
     .reduce(indexByCode, {});
 
-  const currencies = Object.values(currenciesByCode);
+  const currencies = Object.values(currenciesByCode).filter(function (c) { return !!c.code; });
   currencies.sort(compareCurrencyCode);
 
   return currencies;
