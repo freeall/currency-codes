@@ -1,6 +1,7 @@
 /*
 	Follows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html
-	Data last updated 2018 May 1st
+	See https://www.currency-iso.org/dam/downloads/lists/list_one.xml
+	Data last updated 2018-08-29
 */
 
 module.exports = [
@@ -46,7 +47,7 @@ module.exports = [
     "digits": 2,
     "currency": "Netherlands Antillean Guilder",
     "countries": [
-      "CuraçAo",
+      "Curaçao",
       "Sint Maarten (Dutch Part)"
     ]
   },
@@ -77,7 +78,7 @@ module.exports = [
       "Australia",
       "Christmas Island",
       "Cocos (Keeling) Islands (The)",
-      "Heard Island And Mcdonald Islands",
+      "Heard Island and Mcdonald Islands",
       "Kiribati",
       "Nauru",
       "Norfolk Island",
@@ -108,7 +109,7 @@ module.exports = [
     "digits": 2,
     "currency": "Convertible Mark",
     "countries": [
-      "Bosnia And Herzegovina"
+      "Bosnia and Herzegovina"
     ]
   },
   {
@@ -261,7 +262,7 @@ module.exports = [
     "digits": 2,
     "currency": "Congolese Franc",
     "countries": [
-      "Congo (The Democratic Republic Of The)"
+      "Congo (The Democratic Republic of The)"
     ]
   },
   {
@@ -453,6 +454,7 @@ module.exports = [
     "digits": 2,
     "currency": "Euro",
     "countries": [
+      "Åland Islands",
       "Andorra",
       "Austria",
       "Belgium",
@@ -482,12 +484,11 @@ module.exports = [
       "Réunion",
       "Saint Barthélemy",
       "Saint Martin (French Part)",
-      "Saint Pierre And Miquelon",
+      "Saint Pierre and Miquelon",
       "San Marino",
       "Slovakia",
       "Slovenia",
-      "Spain",
-      "Åland Islands"
+      "Spain"
     ]
   },
   {
@@ -515,9 +516,9 @@ module.exports = [
     "currency": "Pound Sterling",
     "countries": [
       "Guernsey",
-      "Isle Of Man",
+      "Isle of Man",
       "Jersey",
-      "United Kingdom Of Great Britain And Northern Ireland (The)"
+      "United Kingdom of Great Britain and Northern Ireland (The)"
     ]
   },
   {
@@ -752,7 +753,7 @@ module.exports = [
     "digits": 2,
     "currency": "North Korean Won",
     "countries": [
-      "Korea (The Democratic People's Republic Of)"
+      "Korea (The Democratic People’s Republic Of)"
     ]
   },
   {
@@ -797,7 +798,7 @@ module.exports = [
     "digits": 2,
     "currency": "Lao Kip",
     "countries": [
-      "Lao People's Democratic Republic (The)"
+      "Lao People’s Democratic Republic (The)"
     ]
   },
   {
@@ -1016,7 +1017,7 @@ module.exports = [
     "countries": [
       "Bouvet Island",
       "Norway",
-      "Svalbard And Jan Mayen"
+      "Svalbard and Jan Mayen"
     ]
   },
   {
@@ -1081,7 +1082,7 @@ module.exports = [
     "code": "PHP",
     "number": "608",
     "digits": 2,
-    "currency": "Philippine Piso",
+    "currency": "Philippine Peso",
     "countries": [
       "Philippines (The)"
     ]
@@ -1218,7 +1219,7 @@ module.exports = [
     "digits": 2,
     "currency": "Saint Helena Pound",
     "countries": [
-      "Saint Helena, Ascension And Tristan Da Cunha"
+      "Saint Helena, Ascension and Tristan Da Cunha"
     ]
   },
   {
@@ -1263,7 +1264,7 @@ module.exports = [
     "digits": 2,
     "currency": "Dobra",
     "countries": [
-      "Sao Tome And Principe"
+      "Sao Tome and Principe"
     ]
   },
   {
@@ -1290,7 +1291,7 @@ module.exports = [
     "digits": 2,
     "currency": "Lilangeni",
     "countries": [
-      "Swaziland"
+      "Eswatini"
     ]
   },
   {
@@ -1333,7 +1334,7 @@ module.exports = [
     "code": "TOP",
     "number": "776",
     "digits": 2,
-    "currency": "Pa'anga",
+    "currency": "Pa’anga",
     "countries": [
       "Tonga"
     ]
@@ -1353,7 +1354,7 @@ module.exports = [
     "digits": 2,
     "currency": "Trinidad and Tobago Dollar",
     "countries": [
-      "Trinidad And Tobago"
+      "Trinidad and Tobago"
     ]
   },
   {
@@ -1362,7 +1363,7 @@ module.exports = [
     "digits": 2,
     "currency": "New Taiwan Dollar",
     "countries": [
-      "Taiwan (Province Of China)"
+      "Taiwan (Province of China)"
     ]
   },
   {
@@ -1399,7 +1400,7 @@ module.exports = [
     "currency": "US Dollar",
     "countries": [
       "American Samoa",
-      "Bonaire, Sint Eustatius And Saba",
+      "Bonaire, Sint Eustatius and Saba",
       "British Indian Ocean Territory (The)",
       "Ecuador",
       "El Salvador",
@@ -1412,11 +1413,11 @@ module.exports = [
       "Panama",
       "Puerto Rico",
       "Timor-Leste",
-      "Turks And Caicos Islands (The)",
+      "Turks and Caicos Islands (The)",
       "United States Minor Outlying Islands (The)",
-      "United States Of America (The)",
+      "United States of America (The)",
       "Virgin Islands (British)",
-      "Virgin Islands (U.S.)"
+      "Virgin Islands (u.s.)"
     ]
   },
   {
@@ -1425,14 +1426,14 @@ module.exports = [
     "digits": 2,
     "currency": "US Dollar (Next day)",
     "countries": [
-      "United States Of America (The)"
+      "United States of America (The)"
     ]
   },
   {
     "code": "UYI",
     "number": "940",
     "digits": 0,
-    "currency": "Uruguay Peso en Unidades Indexadas (URUIURUI)",
+    "currency": "Uruguay Peso en Unidades Indexadas (UI)",
     "countries": [
       "Uruguay"
     ]
@@ -1447,6 +1448,15 @@ module.exports = [
     ]
   },
   {
+    "code": "UYW",
+    "number": "927",
+    "digits": 4,
+    "currency": "Unidad Previsional",
+    "countries": [
+      "Uruguay"
+    ]
+  },
+  {
     "code": "UZS",
     "number": "860",
     "digits": 2,
@@ -1456,10 +1466,10 @@ module.exports = [
     ]
   },
   {
-    "code": "VEF",
-    "number": "937",
+    "code": "VES",
+    "number": "928",
     "digits": 2,
-    "currency": "Bolívar",
+    "currency": "Bolívar Soberano",
     "countries": [
       "Venezuela (Bolivarian Republic Of)"
     ]
@@ -1510,42 +1520,54 @@ module.exports = [
     "number": "961",
     "digits": 0,
     "currency": "Silver",
-    "countries": []
+    "countries": [
+      "Zz11_silver"
+    ]
   },
   {
     "code": "XAU",
     "number": "959",
     "digits": 0,
     "currency": "Gold",
-    "countries": []
+    "countries": [
+      "Zz08_gold"
+    ]
   },
   {
     "code": "XBA",
     "number": "955",
     "digits": 0,
     "currency": "Bond Markets Unit European Composite Unit (EURCO)",
-    "countries": []
+    "countries": [
+      "Zz01_bond Markets Unit European_eurco"
+    ]
   },
   {
     "code": "XBB",
     "number": "956",
     "digits": 0,
     "currency": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
-    "countries": []
+    "countries": [
+      "Zz02_bond Markets Unit European_emu-6"
+    ]
   },
   {
     "code": "XBC",
     "number": "957",
     "digits": 0,
     "currency": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
-    "countries": []
+    "countries": [
+      "Zz03_bond Markets Unit European_eua-9"
+    ]
   },
   {
     "code": "XBD",
     "number": "958",
     "digits": 0,
     "currency": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
-    "countries": []
+    "countries": [
+      "Zz04_bond Markets Unit European_eua-17"
+    ]
   },
   {
     "code": "XCD",
@@ -1554,13 +1576,13 @@ module.exports = [
     "currency": "East Caribbean Dollar",
     "countries": [
       "Anguilla",
-      "Antigua And Barbuda",
+      "Antigua and Barbuda",
       "Dominica",
       "Grenada",
       "Montserrat",
-      "Saint Kitts And Nevis",
+      "Saint Kitts and Nevis",
       "Saint Lucia",
-      "Saint Vincent And The Grenadines"
+      "Saint Vincent and the Grenadines"
     ]
   },
   {
@@ -1569,7 +1591,7 @@ module.exports = [
     "digits": 0,
     "currency": "SDR (Special Drawing Right)",
     "countries": [
-      "International Monetary Fund (Imf) "
+      "International Monetary Fund (Imf) "
     ]
   },
   {
@@ -1580,7 +1602,7 @@ module.exports = [
     "countries": [
       "Benin",
       "Burkina Faso",
-      "Côte d'Ivoire",
+      "Côte D'ivoire",
       "Guinea-Bissau",
       "Mali",
       "Niger (The)",
@@ -1593,7 +1615,9 @@ module.exports = [
     "number": "964",
     "digits": 0,
     "currency": "Palladium",
-    "countries": []
+    "countries": [
+      "Zz09_palladium"
+    ]
   },
   {
     "code": "XPF",
@@ -1603,7 +1627,7 @@ module.exports = [
     "countries": [
       "French Polynesia",
       "New Caledonia",
-      "Wallis And Futuna"
+      "Wallis and Futuna"
     ]
   },
   {
@@ -1611,7 +1635,9 @@ module.exports = [
     "number": "962",
     "digits": 0,
     "currency": "Platinum",
-    "countries": []
+    "countries": [
+      "Zz10_platinum"
+    ]
   },
   {
     "code": "XSU",
@@ -1627,7 +1653,9 @@ module.exports = [
     "number": "963",
     "digits": 0,
     "currency": "Codes specifically reserved for testing purposes",
-    "countries": []
+    "countries": [
+      "Zz06_testing_code"
+    ]
   },
   {
     "code": "XUA",
@@ -1635,7 +1663,7 @@ module.exports = [
     "digits": 0,
     "currency": "ADB Unit of Account",
     "countries": [
-      "Member Countries Of The African Development Bank Group"
+      "Member Countries of the African Development Bank Group"
     ]
   },
   {
@@ -1643,7 +1671,9 @@ module.exports = [
     "number": "999",
     "digits": 0,
     "currency": "The codes assigned for transactions where no currency is involved",
-    "countries": []
+    "countries": [
+      "Zz07_no_currency"
+    ]
   },
   {
     "code": "YER",
