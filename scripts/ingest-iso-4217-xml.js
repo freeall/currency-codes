@@ -26,15 +26,7 @@ function indexByCode(index, c) {
 }
 
 function compareCurrencyCode(a, b) {
-  if (a.code < b.code) {
-    return -1;
-  }
-
-  if (a.code > b.code) {
-    return +1;
-  }
-
-  return 0;
+  return a.code.localeCompare(b.code);
 }
 
 function ingestEntries(data) {
