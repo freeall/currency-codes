@@ -18,4 +18,6 @@ declare module "currency-codes" {
   export function numbers(): number[];
 
   export function countries(): string[];
+
+  export const data: CurrencyCodeRecord[];
 }

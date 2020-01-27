@@ -11,3 +11,4 @@ assert(cc.codes().length === 178);
 assert(cc.countries().length === 250);
 assert(cc.numbers().length === 178);
 assert(cc.numbers()[0] === '784');
+assert(cc.data.length == 178);
