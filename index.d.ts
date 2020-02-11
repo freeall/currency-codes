@@ -19,5 +19,7 @@ declare module "currency-codes" {
 
   export function countries(): string[];
 
+  export const publishDate: string;
+
   export const data: CurrencyCodeRecord[];
 }

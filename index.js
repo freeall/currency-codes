@@ -1,6 +1,7 @@
 var first = require('first-match');
 var nub = require('nub');
 var data = require('./data');
+var publishDate = require('./iso-4217-publish-date');
 
 var code = function(code) {
   code = code.toUpperCase();
@@ -55,4 +56,5 @@ exports.number = number;
 exports.codes = codes;
 exports.numbers = numbers;
 exports.countries = countries;
+exports.publishDate = publishDate;
 exports.data = data;
