@@ -57,3 +57,4 @@ exports.codes = codes;
 exports.numbers = numbers;
 exports.countries = countries;
 exports.publishDate = publishDate;
+exports.data = data;
