@@ -4,6 +4,7 @@ declare module "currency-codes" {
     number: string;
     digits: number;
     currency: string;
+    isFund: boolean;
     countries: string[];
   }
 
