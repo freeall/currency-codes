@@ -10,6 +10,7 @@ module.exports = [
     "number": "784",
     "digits": 2,
     "currency": "UAE Dirham",
+    "isFund": false,
     "countries": [
       "United Arab Emirates (The)"
     ]
@@ -19,6 +20,7 @@ module.exports = [
     "number": "971",
     "digits": 2,
     "currency": "Afghani",
+    "isFund": false,
     "countries": [
       "Afghanistan"
     ]
@@ -28,6 +30,7 @@ module.exports = [
     "number": "008",
     "digits": 2,
     "currency": "Lek",
+    "isFund": false,
     "countries": [
       "Albania"
     ]
@@ -37,6 +40,7 @@ module.exports = [
     "number": "051",
     "digits": 2,
     "currency": "Armenian Dram",
+    "isFund": false,
     "countries": [
       "Armenia"
     ]
@@ -46,6 +50,7 @@ module.exports = [
     "number": "532",
     "digits": 2,
     "currency": "Netherlands Antillean Guilder",
+    "isFund": false,
     "countries": [
       "Curaçao",
       "Sint Maarten (Dutch Part)"
@@ -56,6 +61,7 @@ module.exports = [
     "number": "973",
     "digits": 2,
     "currency": "Kwanza",
+    "isFund": false,
     "countries": [
       "Angola"
     ]
@@ -65,6 +71,7 @@ module.exports = [
     "number": "032",
     "digits": 2,
     "currency": "Argentine Peso",
+    "isFund": false,
     "countries": [
       "Argentina"
     ]
@@ -74,6 +81,7 @@ module.exports = [
     "number": "036",
     "digits": 2,
     "currency": "Australian Dollar",
+    "isFund": false,
     "countries": [
       "Australia",
       "Christmas Island",
@@ -90,6 +98,7 @@ module.exports = [
     "number": "533",
     "digits": 2,
     "currency": "Aruban Florin",
+    "isFund": false,
     "countries": [
       "Aruba"
     ]
@@ -99,6 +108,7 @@ module.exports = [
     "number": "944",
     "digits": 2,
     "currency": "Azerbaijan Manat",
+    "isFund": false,
     "countries": [
       "Azerbaijan"
     ]
@@ -108,6 +118,7 @@ module.exports = [
     "number": "977",
     "digits": 2,
     "currency": "Convertible Mark",
+    "isFund": false,
     "countries": [
       "Bosnia and Herzegovina"
     ]
@@ -117,6 +128,7 @@ module.exports = [
     "number": "052",
     "digits": 2,
     "currency": "Barbados Dollar",
+    "isFund": false,
     "countries": [
       "Barbados"
     ]
@@ -126,6 +138,7 @@ module.exports = [
     "number": "050",
     "digits": 2,
     "currency": "Taka",
+    "isFund": false,
     "countries": [
       "Bangladesh"
     ]
@@ -135,6 +148,7 @@ module.exports = [
     "number": "975",
     "digits": 2,
     "currency": "Bulgarian Lev",
+    "isFund": false,
     "countries": [
       "Bulgaria"
     ]
@@ -144,6 +158,7 @@ module.exports = [
     "number": "048",
     "digits": 3,
     "currency": "Bahraini Dinar",
+    "isFund": false,
     "countries": [
       "Bahrain"
     ]
@@ -153,6 +168,7 @@ module.exports = [
     "number": "108",
     "digits": 0,
     "currency": "Burundi Franc",
+    "isFund": false,
     "countries": [
       "Burundi"
     ]
@@ -162,6 +178,7 @@ module.exports = [
     "number": "060",
     "digits": 2,
     "currency": "Bermudian Dollar",
+    "isFund": false,
     "countries": [
       "Bermuda"
     ]
@@ -171,6 +188,7 @@ module.exports = [
     "number": "096",
     "digits": 2,
     "currency": "Brunei Dollar",
+    "isFund": false,
     "countries": [
       "Brunei Darussalam"
     ]
@@ -180,6 +198,7 @@ module.exports = [
     "number": "068",
     "digits": 2,
     "currency": "Boliviano",
+    "isFund": false,
     "countries": [
       "Bolivia (Plurinational State Of)"
     ]
@@ -189,6 +208,7 @@ module.exports = [
     "number": "984",
     "digits": 2,
     "currency": "Mvdol",
+    "isFund": true,
     "countries": [
       "Bolivia (Plurinational State Of)"
     ]
@@ -198,6 +218,7 @@ module.exports = [
     "number": "986",
     "digits": 2,
     "currency": "Brazilian Real",
+    "isFund": false,
     "countries": [
       "Brazil"
     ]
@@ -207,6 +228,7 @@ module.exports = [
     "number": "044",
     "digits": 2,
     "currency": "Bahamian Dollar",
+    "isFund": false,
     "countries": [
       "Bahamas (The)"
     ]
@@ -216,6 +238,7 @@ module.exports = [
     "number": "064",
     "digits": 2,
     "currency": "Ngultrum",
+    "isFund": false,
     "countries": [
       "Bhutan"
     ]
@@ -225,6 +248,7 @@ module.exports = [
     "number": "072",
     "digits": 2,
     "currency": "Pula",
+    "isFund": false,
     "countries": [
       "Botswana"
     ]
@@ -234,6 +258,7 @@ module.exports = [
     "number": "933",
     "digits": 2,
     "currency": "Belarusian Ruble",
+    "isFund": false,
     "countries": [
       "Belarus"
     ]
@@ -243,6 +268,7 @@ module.exports = [
     "number": "084",
     "digits": 2,
     "currency": "Belize Dollar",
+    "isFund": false,
     "countries": [
       "Belize"
     ]
@@ -252,6 +278,7 @@ module.exports = [
     "number": "124",
     "digits": 2,
     "currency": "Canadian Dollar",
+    "isFund": false,
     "countries": [
       "Canada"
     ]
@@ -261,6 +288,7 @@ module.exports = [
     "number": "976",
     "digits": 2,
     "currency": "Congolese Franc",
+    "isFund": false,
     "countries": [
       "Congo (The Democratic Republic of The)"
     ]
@@ -270,6 +298,7 @@ module.exports = [
     "number": "947",
     "digits": 2,
     "currency": "WIR Euro",
+    "isFund": true,
     "countries": [
       "Switzerland"
     ]
@@ -279,6 +308,7 @@ module.exports = [
     "number": "756",
     "digits": 2,
     "currency": "Swiss Franc",
+    "isFund": false,
     "countries": [
       "Liechtenstein",
       "Switzerland"
@@ -289,6 +319,7 @@ module.exports = [
     "number": "948",
     "digits": 2,
     "currency": "WIR Franc",
+    "isFund": true,
     "countries": [
       "Switzerland"
     ]
@@ -298,6 +329,7 @@ module.exports = [
     "number": "990",
     "digits": 4,
     "currency": "Unidad de Fomento",
+    "isFund": true,
     "countries": [
       "Chile"
     ]
@@ -307,6 +339,7 @@ module.exports = [
     "number": "152",
     "digits": 0,
     "currency": "Chilean Peso",
+    "isFund": false,
     "countries": [
       "Chile"
     ]
@@ -316,6 +349,7 @@ module.exports = [
     "number": "156",
     "digits": 2,
     "currency": "Yuan Renminbi",
+    "isFund": false,
     "countries": [
       "China"
     ]
@@ -325,6 +359,7 @@ module.exports = [
     "number": "170",
     "digits": 2,
     "currency": "Colombian Peso",
+    "isFund": false,
     "countries": [
       "Colombia"
     ]
@@ -334,6 +369,7 @@ module.exports = [
     "number": "970",
     "digits": 2,
     "currency": "Unidad de Valor Real",
+    "isFund": true,
     "countries": [
       "Colombia"
     ]
@@ -343,6 +379,7 @@ module.exports = [
     "number": "188",
     "digits": 2,
     "currency": "Costa Rican Colon",
+    "isFund": false,
     "countries": [
       "Costa Rica"
     ]
@@ -352,6 +389,7 @@ module.exports = [
     "number": "931",
     "digits": 2,
     "currency": "Peso Convertible",
+    "isFund": false,
     "countries": [
       "Cuba"
     ]
@@ -361,6 +399,7 @@ module.exports = [
     "number": "192",
     "digits": 2,
     "currency": "Cuban Peso",
+    "isFund": false,
     "countries": [
       "Cuba"
     ]
@@ -370,6 +409,7 @@ module.exports = [
     "number": "132",
     "digits": 2,
     "currency": "Cabo Verde Escudo",
+    "isFund": false,
     "countries": [
       "Cabo Verde"
     ]
@@ -379,6 +419,7 @@ module.exports = [
     "number": "203",
     "digits": 2,
     "currency": "Czech Koruna",
+    "isFund": false,
     "countries": [
       "Czechia"
     ]
@@ -388,6 +429,7 @@ module.exports = [
     "number": "262",
     "digits": 0,
     "currency": "Djibouti Franc",
+    "isFund": false,
     "countries": [
       "Djibouti"
     ]
@@ -397,6 +439,7 @@ module.exports = [
     "number": "208",
     "digits": 2,
     "currency": "Danish Krone",
+    "isFund": false,
     "countries": [
       "Denmark",
       "Faroe Islands (The)",
@@ -408,6 +451,7 @@ module.exports = [
     "number": "214",
     "digits": 2,
     "currency": "Dominican Peso",
+    "isFund": false,
     "countries": [
       "Dominican Republic (The)"
     ]
@@ -417,6 +461,7 @@ module.exports = [
     "number": "012",
     "digits": 2,
     "currency": "Algerian Dinar",
+    "isFund": false,
     "countries": [
       "Algeria"
     ]
@@ -426,6 +471,7 @@ module.exports = [
     "number": "818",
     "digits": 2,
     "currency": "Egyptian Pound",
+    "isFund": false,
     "countries": [
       "Egypt"
     ]
@@ -435,6 +481,7 @@ module.exports = [
     "number": "232",
     "digits": 2,
     "currency": "Nakfa",
+    "isFund": false,
     "countries": [
       "Eritrea"
     ]
@@ -444,6 +491,7 @@ module.exports = [
     "number": "230",
     "digits": 2,
     "currency": "Ethiopian Birr",
+    "isFund": false,
     "countries": [
       "Ethiopia"
     ]
@@ -453,6 +501,7 @@ module.exports = [
     "number": "978",
     "digits": 2,
     "currency": "Euro",
+    "isFund": false,
     "countries": [
       "Åland Islands",
       "Andorra",
@@ -496,6 +545,7 @@ module.exports = [
     "number": "242",
     "digits": 2,
     "currency": "Fiji Dollar",
+    "isFund": false,
     "countries": [
       "Fiji"
     ]
@@ -505,6 +555,7 @@ module.exports = [
     "number": "238",
     "digits": 2,
     "currency": "Falkland Islands Pound",
+    "isFund": false,
     "countries": [
       "Falkland Islands (The) [Malvinas]"
     ]
@@ -514,6 +565,7 @@ module.exports = [
     "number": "826",
     "digits": 2,
     "currency": "Pound Sterling",
+    "isFund": false,
     "countries": [
       "Guernsey",
       "Isle of Man",
@@ -526,6 +578,7 @@ module.exports = [
     "number": "981",
     "digits": 2,
     "currency": "Lari",
+    "isFund": false,
     "countries": [
       "Georgia"
     ]
@@ -535,6 +588,7 @@ module.exports = [
     "number": "936",
     "digits": 2,
     "currency": "Ghana Cedi",
+    "isFund": false,
     "countries": [
       "Ghana"
     ]
@@ -544,6 +598,7 @@ module.exports = [
     "number": "292",
     "digits": 2,
     "currency": "Gibraltar Pound",
+    "isFund": false,
     "countries": [
       "Gibraltar"
     ]
@@ -553,6 +608,7 @@ module.exports = [
     "number": "270",
     "digits": 2,
     "currency": "Dalasi",
+    "isFund": false,
     "countries": [
       "Gambia (The)"
     ]
@@ -562,6 +618,7 @@ module.exports = [
     "number": "324",
     "digits": 0,
     "currency": "Guinean Franc",
+    "isFund": false,
     "countries": [
       "Guinea"
     ]
@@ -571,6 +628,7 @@ module.exports = [
     "number": "320",
     "digits": 2,
     "currency": "Quetzal",
+    "isFund": false,
     "countries": [
       "Guatemala"
     ]
@@ -580,6 +638,7 @@ module.exports = [
     "number": "328",
     "digits": 2,
     "currency": "Guyana Dollar",
+    "isFund": false,
     "countries": [
       "Guyana"
     ]
@@ -589,6 +648,7 @@ module.exports = [
     "number": "344",
     "digits": 2,
     "currency": "Hong Kong Dollar",
+    "isFund": false,
     "countries": [
       "Hong Kong"
     ]
@@ -598,6 +658,7 @@ module.exports = [
     "number": "340",
     "digits": 2,
     "currency": "Lempira",
+    "isFund": false,
     "countries": [
       "Honduras"
     ]
@@ -607,6 +668,7 @@ module.exports = [
     "number": "191",
     "digits": 2,
     "currency": "Kuna",
+    "isFund": false,
     "countries": [
       "Croatia"
     ]
@@ -616,6 +678,7 @@ module.exports = [
     "number": "332",
     "digits": 2,
     "currency": "Gourde",
+    "isFund": false,
     "countries": [
       "Haiti"
     ]
@@ -625,6 +688,7 @@ module.exports = [
     "number": "348",
     "digits": 2,
     "currency": "Forint",
+    "isFund": false,
     "countries": [
       "Hungary"
     ]
@@ -634,6 +698,7 @@ module.exports = [
     "number": "360",
     "digits": 2,
     "currency": "Rupiah",
+    "isFund": false,
     "countries": [
       "Indonesia"
     ]
@@ -643,6 +708,7 @@ module.exports = [
     "number": "376",
     "digits": 2,
     "currency": "New Israeli Sheqel",
+    "isFund": false,
     "countries": [
       "Israel"
     ]
@@ -652,6 +718,7 @@ module.exports = [
     "number": "356",
     "digits": 2,
     "currency": "Indian Rupee",
+    "isFund": false,
     "countries": [
       "Bhutan",
       "India"
@@ -662,6 +729,7 @@ module.exports = [
     "number": "368",
     "digits": 3,
     "currency": "Iraqi Dinar",
+    "isFund": false,
     "countries": [
       "Iraq"
     ]
@@ -671,6 +739,7 @@ module.exports = [
     "number": "364",
     "digits": 2,
     "currency": "Iranian Rial",
+    "isFund": false,
     "countries": [
       "Iran (Islamic Republic Of)"
     ]
@@ -680,6 +749,7 @@ module.exports = [
     "number": "352",
     "digits": 0,
     "currency": "Iceland Krona",
+    "isFund": false,
     "countries": [
       "Iceland"
     ]
@@ -689,6 +759,7 @@ module.exports = [
     "number": "388",
     "digits": 2,
     "currency": "Jamaican Dollar",
+    "isFund": false,
     "countries": [
       "Jamaica"
     ]
@@ -698,6 +769,7 @@ module.exports = [
     "number": "400",
     "digits": 3,
     "currency": "Jordanian Dinar",
+    "isFund": false,
     "countries": [
       "Jordan"
     ]
@@ -707,6 +779,7 @@ module.exports = [
     "number": "392",
     "digits": 0,
     "currency": "Yen",
+    "isFund": false,
     "countries": [
       "Japan"
     ]
@@ -716,6 +789,7 @@ module.exports = [
     "number": "404",
     "digits": 2,
     "currency": "Kenyan Shilling",
+    "isFund": false,
     "countries": [
       "Kenya"
     ]
@@ -725,6 +799,7 @@ module.exports = [
     "number": "417",
     "digits": 2,
     "currency": "Som",
+    "isFund": false,
     "countries": [
       "Kyrgyzstan"
     ]
@@ -734,6 +809,7 @@ module.exports = [
     "number": "116",
     "digits": 2,
     "currency": "Riel",
+    "isFund": false,
     "countries": [
       "Cambodia"
     ]
@@ -743,6 +819,7 @@ module.exports = [
     "number": "174",
     "digits": 0,
     "currency": "Comorian Franc ",
+    "isFund": false,
     "countries": [
       "Comoros (The)"
     ]
@@ -752,6 +829,7 @@ module.exports = [
     "number": "408",
     "digits": 2,
     "currency": "North Korean Won",
+    "isFund": false,
     "countries": [
       "Korea (The Democratic People’s Republic Of)"
     ]
@@ -761,6 +839,7 @@ module.exports = [
     "number": "410",
     "digits": 0,
     "currency": "Won",
+    "isFund": false,
     "countries": [
       "Korea (The Republic Of)"
     ]
@@ -770,6 +849,7 @@ module.exports = [
     "number": "414",
     "digits": 3,
     "currency": "Kuwaiti Dinar",
+    "isFund": false,
     "countries": [
       "Kuwait"
     ]
@@ -779,6 +859,7 @@ module.exports = [
     "number": "136",
     "digits": 2,
     "currency": "Cayman Islands Dollar",
+    "isFund": false,
     "countries": [
       "Cayman Islands (The)"
     ]
@@ -788,6 +869,7 @@ module.exports = [
     "number": "398",
     "digits": 2,
     "currency": "Tenge",
+    "isFund": false,
     "countries": [
       "Kazakhstan"
     ]
@@ -797,6 +879,7 @@ module.exports = [
     "number": "418",
     "digits": 2,
     "currency": "Lao Kip",
+    "isFund": false,
     "countries": [
       "Lao People’s Democratic Republic (The)"
     ]
@@ -806,6 +889,7 @@ module.exports = [
     "number": "422",
     "digits": 2,
     "currency": "Lebanese Pound",
+    "isFund": false,
     "countries": [
       "Lebanon"
     ]
@@ -815,6 +899,7 @@ module.exports = [
     "number": "144",
     "digits": 2,
     "currency": "Sri Lanka Rupee",
+    "isFund": false,
     "countries": [
       "Sri Lanka"
     ]
@@ -824,6 +909,7 @@ module.exports = [
     "number": "430",
     "digits": 2,
     "currency": "Liberian Dollar",
+    "isFund": false,
     "countries": [
       "Liberia"
     ]
@@ -833,6 +919,7 @@ module.exports = [
     "number": "426",
     "digits": 2,
     "currency": "Loti",
+    "isFund": false,
     "countries": [
       "Lesotho"
     ]
@@ -842,6 +929,7 @@ module.exports = [
     "number": "434",
     "digits": 3,
     "currency": "Libyan Dinar",
+    "isFund": false,
     "countries": [
       "Libya"
     ]
@@ -851,6 +939,7 @@ module.exports = [
     "number": "504",
     "digits": 2,
     "currency": "Moroccan Dirham",
+    "isFund": false,
     "countries": [
       "Morocco",
       "Western Sahara"
@@ -861,6 +950,7 @@ module.exports = [
     "number": "498",
     "digits": 2,
     "currency": "Moldovan Leu",
+    "isFund": false,
     "countries": [
       "Moldova (The Republic Of)"
     ]
@@ -870,6 +960,7 @@ module.exports = [
     "number": "969",
     "digits": 2,
     "currency": "Malagasy Ariary",
+    "isFund": false,
     "countries": [
       "Madagascar"
     ]
@@ -879,6 +970,7 @@ module.exports = [
     "number": "807",
     "digits": 2,
     "currency": "Denar",
+    "isFund": false,
     "countries": [
       "Macedonia (The Former Yugoslav Republic Of)"
     ]
@@ -888,6 +980,7 @@ module.exports = [
     "number": "104",
     "digits": 2,
     "currency": "Kyat",
+    "isFund": false,
     "countries": [
       "Myanmar"
     ]
@@ -897,6 +990,7 @@ module.exports = [
     "number": "496",
     "digits": 2,
     "currency": "Tugrik",
+    "isFund": false,
     "countries": [
       "Mongolia"
     ]
@@ -906,6 +1000,7 @@ module.exports = [
     "number": "446",
     "digits": 2,
     "currency": "Pataca",
+    "isFund": false,
     "countries": [
       "Macao"
     ]
@@ -915,6 +1010,7 @@ module.exports = [
     "number": "929",
     "digits": 2,
     "currency": "Ouguiya",
+    "isFund": false,
     "countries": [
       "Mauritania"
     ]
@@ -924,6 +1020,7 @@ module.exports = [
     "number": "480",
     "digits": 2,
     "currency": "Mauritius Rupee",
+    "isFund": false,
     "countries": [
       "Mauritius"
     ]
@@ -933,6 +1030,7 @@ module.exports = [
     "number": "462",
     "digits": 2,
     "currency": "Rufiyaa",
+    "isFund": false,
     "countries": [
       "Maldives"
     ]
@@ -942,6 +1040,7 @@ module.exports = [
     "number": "454",
     "digits": 2,
     "currency": "Malawi Kwacha",
+    "isFund": false,
     "countries": [
       "Malawi"
     ]
@@ -951,6 +1050,7 @@ module.exports = [
     "number": "484",
     "digits": 2,
     "currency": "Mexican Peso",
+    "isFund": false,
     "countries": [
       "Mexico"
     ]
@@ -960,6 +1060,7 @@ module.exports = [
     "number": "979",
     "digits": 2,
     "currency": "Mexican Unidad de Inversion (UDI)",
+    "isFund": true,
     "countries": [
       "Mexico"
     ]
@@ -969,6 +1070,7 @@ module.exports = [
     "number": "458",
     "digits": 2,
     "currency": "Malaysian Ringgit",
+    "isFund": false,
     "countries": [
       "Malaysia"
     ]
@@ -978,6 +1080,7 @@ module.exports = [
     "number": "943",
     "digits": 2,
     "currency": "Mozambique Metical",
+    "isFund": false,
     "countries": [
       "Mozambique"
     ]
@@ -987,6 +1090,7 @@ module.exports = [
     "number": "516",
     "digits": 2,
     "currency": "Namibia Dollar",
+    "isFund": false,
     "countries": [
       "Namibia"
     ]
@@ -996,6 +1100,7 @@ module.exports = [
     "number": "566",
     "digits": 2,
     "currency": "Naira",
+    "isFund": false,
     "countries": [
       "Nigeria"
     ]
@@ -1005,6 +1110,7 @@ module.exports = [
     "number": "558",
     "digits": 2,
     "currency": "Cordoba Oro",
+    "isFund": false,
     "countries": [
       "Nicaragua"
     ]
@@ -1014,6 +1120,7 @@ module.exports = [
     "number": "578",
     "digits": 2,
     "currency": "Norwegian Krone",
+    "isFund": false,
     "countries": [
       "Bouvet Island",
       "Norway",
@@ -1025,6 +1132,7 @@ module.exports = [
     "number": "524",
     "digits": 2,
     "currency": "Nepalese Rupee",
+    "isFund": false,
     "countries": [
       "Nepal"
     ]
@@ -1034,6 +1142,7 @@ module.exports = [
     "number": "554",
     "digits": 2,
     "currency": "New Zealand Dollar",
+    "isFund": false,
     "countries": [
       "Cook Islands (The)",
       "New Zealand",
@@ -1047,6 +1156,7 @@ module.exports = [
     "number": "512",
     "digits": 3,
     "currency": "Rial Omani",
+    "isFund": false,
     "countries": [
       "Oman"
     ]
@@ -1056,6 +1166,7 @@ module.exports = [
     "number": "590",
     "digits": 2,
     "currency": "Balboa",
+    "isFund": false,
     "countries": [
       "Panama"
     ]
@@ -1065,6 +1176,7 @@ module.exports = [
     "number": "604",
     "digits": 2,
     "currency": "Sol",
+    "isFund": false,
     "countries": [
       "Peru"
     ]
@@ -1074,6 +1186,7 @@ module.exports = [
     "number": "598",
     "digits": 2,
     "currency": "Kina",
+    "isFund": false,
     "countries": [
       "Papua New Guinea"
     ]
@@ -1083,6 +1196,7 @@ module.exports = [
     "number": "608",
     "digits": 2,
     "currency": "Philippine Peso",
+    "isFund": false,
     "countries": [
       "Philippines (The)"
     ]
@@ -1092,6 +1206,7 @@ module.exports = [
     "number": "586",
     "digits": 2,
     "currency": "Pakistan Rupee",
+    "isFund": false,
     "countries": [
       "Pakistan"
     ]
@@ -1101,6 +1216,7 @@ module.exports = [
     "number": "985",
     "digits": 2,
     "currency": "Zloty",
+    "isFund": false,
     "countries": [
       "Poland"
     ]
@@ -1110,6 +1226,7 @@ module.exports = [
     "number": "600",
     "digits": 0,
     "currency": "Guarani",
+    "isFund": false,
     "countries": [
       "Paraguay"
     ]
@@ -1119,6 +1236,7 @@ module.exports = [
     "number": "634",
     "digits": 2,
     "currency": "Qatari Rial",
+    "isFund": false,
     "countries": [
       "Qatar"
     ]
@@ -1128,6 +1246,7 @@ module.exports = [
     "number": "946",
     "digits": 2,
     "currency": "Romanian Leu",
+    "isFund": false,
     "countries": [
       "Romania"
     ]
@@ -1137,6 +1256,7 @@ module.exports = [
     "number": "941",
     "digits": 2,
     "currency": "Serbian Dinar",
+    "isFund": false,
     "countries": [
       "Serbia"
     ]
@@ -1146,6 +1266,7 @@ module.exports = [
     "number": "643",
     "digits": 2,
     "currency": "Russian Ruble",
+    "isFund": false,
     "countries": [
       "Russian Federation (The)"
     ]
@@ -1155,6 +1276,7 @@ module.exports = [
     "number": "646",
     "digits": 0,
     "currency": "Rwanda Franc",
+    "isFund": false,
     "countries": [
       "Rwanda"
     ]
@@ -1164,6 +1286,7 @@ module.exports = [
     "number": "682",
     "digits": 2,
     "currency": "Saudi Riyal",
+    "isFund": false,
     "countries": [
       "Saudi Arabia"
     ]
@@ -1173,6 +1296,7 @@ module.exports = [
     "number": "090",
     "digits": 2,
     "currency": "Solomon Islands Dollar",
+    "isFund": false,
     "countries": [
       "Solomon Islands"
     ]
@@ -1182,6 +1306,7 @@ module.exports = [
     "number": "690",
     "digits": 2,
     "currency": "Seychelles Rupee",
+    "isFund": false,
     "countries": [
       "Seychelles"
     ]
@@ -1191,6 +1316,7 @@ module.exports = [
     "number": "938",
     "digits": 2,
     "currency": "Sudanese Pound",
+    "isFund": false,
     "countries": [
       "Sudan (The)"
     ]
@@ -1200,6 +1326,7 @@ module.exports = [
     "number": "752",
     "digits": 2,
     "currency": "Swedish Krona",
+    "isFund": false,
     "countries": [
       "Sweden"
     ]
@@ -1209,6 +1336,7 @@ module.exports = [
     "number": "702",
     "digits": 2,
     "currency": "Singapore Dollar",
+    "isFund": false,
     "countries": [
       "Singapore"
     ]
@@ -1218,6 +1346,7 @@ module.exports = [
     "number": "654",
     "digits": 2,
     "currency": "Saint Helena Pound",
+    "isFund": false,
     "countries": [
       "Saint Helena, Ascension and Tristan Da Cunha"
     ]
@@ -1227,6 +1356,7 @@ module.exports = [
     "number": "694",
     "digits": 2,
     "currency": "Leone",
+    "isFund": false,
     "countries": [
       "Sierra Leone"
     ]
@@ -1236,6 +1366,7 @@ module.exports = [
     "number": "706",
     "digits": 2,
     "currency": "Somali Shilling",
+    "isFund": false,
     "countries": [
       "Somalia"
     ]
@@ -1245,6 +1376,7 @@ module.exports = [
     "number": "968",
     "digits": 2,
     "currency": "Surinam Dollar",
+    "isFund": false,
     "countries": [
       "Suriname"
     ]
@@ -1254,6 +1386,7 @@ module.exports = [
     "number": "728",
     "digits": 2,
     "currency": "South Sudanese Pound",
+    "isFund": false,
     "countries": [
       "South Sudan"
     ]
@@ -1263,6 +1396,7 @@ module.exports = [
     "number": "930",
     "digits": 2,
     "currency": "Dobra",
+    "isFund": false,
     "countries": [
       "Sao Tome and Principe"
     ]
@@ -1272,6 +1406,7 @@ module.exports = [
     "number": "222",
     "digits": 2,
     "currency": "El Salvador Colon",
+    "isFund": false,
     "countries": [
       "El Salvador"
     ]
@@ -1281,6 +1416,7 @@ module.exports = [
     "number": "760",
     "digits": 2,
     "currency": "Syrian Pound",
+    "isFund": false,
     "countries": [
       "Syrian Arab Republic"
     ]
@@ -1290,6 +1426,7 @@ module.exports = [
     "number": "748",
     "digits": 2,
     "currency": "Lilangeni",
+    "isFund": false,
     "countries": [
       "Eswatini"
     ]
@@ -1299,6 +1436,7 @@ module.exports = [
     "number": "764",
     "digits": 2,
     "currency": "Baht",
+    "isFund": false,
     "countries": [
       "Thailand"
     ]
@@ -1308,6 +1446,7 @@ module.exports = [
     "number": "972",
     "digits": 2,
     "currency": "Somoni",
+    "isFund": false,
     "countries": [
       "Tajikistan"
     ]
@@ -1317,6 +1456,7 @@ module.exports = [
     "number": "934",
     "digits": 2,
     "currency": "Turkmenistan New Manat",
+    "isFund": false,
     "countries": [
       "Turkmenistan"
     ]
@@ -1326,6 +1466,7 @@ module.exports = [
     "number": "788",
     "digits": 3,
     "currency": "Tunisian Dinar",
+    "isFund": false,
     "countries": [
       "Tunisia"
     ]
@@ -1335,6 +1476,7 @@ module.exports = [
     "number": "776",
     "digits": 2,
     "currency": "Pa’anga",
+    "isFund": false,
     "countries": [
       "Tonga"
     ]
@@ -1344,6 +1486,7 @@ module.exports = [
     "number": "949",
     "digits": 2,
     "currency": "Turkish Lira",
+    "isFund": false,
     "countries": [
       "Turkey"
     ]
@@ -1353,6 +1496,7 @@ module.exports = [
     "number": "780",
     "digits": 2,
     "currency": "Trinidad and Tobago Dollar",
+    "isFund": false,
     "countries": [
       "Trinidad and Tobago"
     ]
@@ -1362,6 +1506,7 @@ module.exports = [
     "number": "901",
     "digits": 2,
     "currency": "New Taiwan Dollar",
+    "isFund": false,
     "countries": [
       "Taiwan (Province of China)"
     ]
@@ -1371,6 +1516,7 @@ module.exports = [
     "number": "834",
     "digits": 2,
     "currency": "Tanzanian Shilling",
+    "isFund": false,
     "countries": [
       "Tanzania, United Republic Of"
     ]
@@ -1380,6 +1526,7 @@ module.exports = [
     "number": "980",
     "digits": 2,
     "currency": "Hryvnia",
+    "isFund": false,
     "countries": [
       "Ukraine"
     ]
@@ -1389,6 +1536,7 @@ module.exports = [
     "number": "800",
     "digits": 0,
     "currency": "Uganda Shilling",
+    "isFund": false,
     "countries": [
       "Uganda"
     ]
@@ -1398,6 +1546,7 @@ module.exports = [
     "number": "840",
     "digits": 2,
     "currency": "US Dollar",
+    "isFund": false,
     "countries": [
       "American Samoa",
       "Bonaire, Sint Eustatius and Saba",
@@ -1417,7 +1566,7 @@ module.exports = [
       "United States Minor Outlying Islands (The)",
       "United States of America (The)",
       "Virgin Islands (British)",
-      "Virgin Islands (U.S.)"
+      "Virgin Islands (u.s.)"
     ]
   },
   {
@@ -1425,6 +1574,7 @@ module.exports = [
     "number": "997",
     "digits": 2,
     "currency": "US Dollar (Next day)",
+    "isFund": true,
     "countries": [
       "United States of America (The)"
     ]
@@ -1434,6 +1584,7 @@ module.exports = [
     "number": "940",
     "digits": 0,
     "currency": "Uruguay Peso en Unidades Indexadas (UI)",
+    "isFund": true,
     "countries": [
       "Uruguay"
     ]
@@ -1443,6 +1594,7 @@ module.exports = [
     "number": "858",
     "digits": 2,
     "currency": "Peso Uruguayo",
+    "isFund": false,
     "countries": [
       "Uruguay"
     ]
@@ -1452,6 +1604,7 @@ module.exports = [
     "number": "927",
     "digits": 4,
     "currency": "Unidad Previsional",
+    "isFund": false,
     "countries": [
       "Uruguay"
     ]
@@ -1461,6 +1614,7 @@ module.exports = [
     "number": "860",
     "digits": 2,
     "currency": "Uzbekistan Sum",
+    "isFund": false,
     "countries": [
       "Uzbekistan"
     ]
@@ -1470,6 +1624,7 @@ module.exports = [
     "number": "928",
     "digits": 2,
     "currency": "Bolívar Soberano",
+    "isFund": false,
     "countries": [
       "Venezuela (Bolivarian Republic Of)"
     ]
@@ -1479,6 +1634,7 @@ module.exports = [
     "number": "704",
     "digits": 0,
     "currency": "Dong",
+    "isFund": false,
     "countries": [
       "Viet Nam"
     ]
@@ -1488,6 +1644,7 @@ module.exports = [
     "number": "548",
     "digits": 0,
     "currency": "Vatu",
+    "isFund": false,
     "countries": [
       "Vanuatu"
     ]
@@ -1497,6 +1654,7 @@ module.exports = [
     "number": "882",
     "digits": 2,
     "currency": "Tala",
+    "isFund": false,
     "countries": [
       "Samoa"
     ]
@@ -1506,6 +1664,7 @@ module.exports = [
     "number": "950",
     "digits": 0,
     "currency": "CFA Franc BEAC",
+    "isFund": false,
     "countries": [
       "Cameroon",
       "Central African Republic (The)",
@@ -1520,6 +1679,7 @@ module.exports = [
     "number": "961",
     "digits": 0,
     "currency": "Silver",
+    "isFund": false,
     "countries": [
       "Zz11_silver"
     ]
@@ -1529,6 +1689,7 @@ module.exports = [
     "number": "959",
     "digits": 0,
     "currency": "Gold",
+    "isFund": false,
     "countries": [
       "Zz08_gold"
     ]
@@ -1538,6 +1699,7 @@ module.exports = [
     "number": "955",
     "digits": 0,
     "currency": "Bond Markets Unit European Composite Unit (EURCO)",
+    "isFund": false,
     "countries": [
       "Zz01_bond Markets Unit European_eurco"
     ]
@@ -1547,6 +1709,7 @@ module.exports = [
     "number": "956",
     "digits": 0,
     "currency": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+    "isFund": false,
     "countries": [
       "Zz02_bond Markets Unit European_emu-6"
     ]
@@ -1556,6 +1719,7 @@ module.exports = [
     "number": "957",
     "digits": 0,
     "currency": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
+    "isFund": false,
     "countries": [
       "Zz03_bond Markets Unit European_eua-9"
     ]
@@ -1565,6 +1729,7 @@ module.exports = [
     "number": "958",
     "digits": 0,
     "currency": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
+    "isFund": false,
     "countries": [
       "Zz04_bond Markets Unit European_eua-17"
     ]
@@ -1574,6 +1739,7 @@ module.exports = [
     "number": "951",
     "digits": 2,
     "currency": "East Caribbean Dollar",
+    "isFund": false,
     "countries": [
       "Anguilla",
       "Antigua and Barbuda",
@@ -1590,6 +1756,7 @@ module.exports = [
     "number": "960",
     "digits": 0,
     "currency": "SDR (Special Drawing Right)",
+    "isFund": false,
     "countries": [
       "International Monetary Fund (Imf) "
     ]
@@ -1599,6 +1766,7 @@ module.exports = [
     "number": "952",
     "digits": 0,
     "currency": "CFA Franc BCEAO",
+    "isFund": false,
     "countries": [
       "Benin",
       "Burkina Faso",
@@ -1615,6 +1783,7 @@ module.exports = [
     "number": "964",
     "digits": 0,
     "currency": "Palladium",
+    "isFund": false,
     "countries": [
       "Zz09_palladium"
     ]
@@ -1624,6 +1793,7 @@ module.exports = [
     "number": "953",
     "digits": 0,
     "currency": "CFP Franc",
+    "isFund": false,
     "countries": [
       "French Polynesia",
       "New Caledonia",
@@ -1635,6 +1805,7 @@ module.exports = [
     "number": "962",
     "digits": 0,
     "currency": "Platinum",
+    "isFund": false,
     "countries": [
       "Zz10_platinum"
     ]
@@ -1644,6 +1815,7 @@ module.exports = [
     "number": "994",
     "digits": 0,
     "currency": "Sucre",
+    "isFund": false,
     "countries": [
       "Sistema Unitario De Compensacion Regional De Pagos \"Sucre\""
     ]
@@ -1653,6 +1825,7 @@ module.exports = [
     "number": "963",
     "digits": 0,
     "currency": "Codes specifically reserved for testing purposes",
+    "isFund": false,
     "countries": [
       "Zz06_testing_code"
     ]
@@ -1662,6 +1835,7 @@ module.exports = [
     "number": "965",
     "digits": 0,
     "currency": "ADB Unit of Account",
+    "isFund": false,
     "countries": [
       "Member Countries of the African Development Bank Group"
     ]
@@ -1671,6 +1845,7 @@ module.exports = [
     "number": "999",
     "digits": 0,
     "currency": "The codes assigned for transactions where no currency is involved",
+    "isFund": false,
     "countries": [
       "Zz07_no_currency"
     ]
@@ -1680,6 +1855,7 @@ module.exports = [
     "number": "886",
     "digits": 2,
     "currency": "Yemeni Rial",
+    "isFund": false,
     "countries": [
       "Yemen"
     ]
@@ -1689,6 +1865,7 @@ module.exports = [
     "number": "710",
     "digits": 2,
     "currency": "Rand",
+    "isFund": false,
     "countries": [
       "Lesotho",
       "Namibia",
@@ -1700,6 +1877,7 @@ module.exports = [
     "number": "967",
     "digits": 2,
     "currency": "Zambian Kwacha",
+    "isFund": false,
     "countries": [
       "Zambia"
     ]
@@ -1709,6 +1887,7 @@ module.exports = [
     "number": "932",
     "digits": 2,
     "currency": "Zimbabwe Dollar",
+    "isFund": false,
     "countries": [
       "Zimbabwe"
     ]

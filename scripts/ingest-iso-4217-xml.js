@@ -7,13 +7,21 @@ const input = 'iso-4217-list-one.xml';
 const outputDataFile = 'data.js';
 const outputPublishDateFile = 'iso-4217-publish-date.js';
 
+function titleCase(s) {
+  s = s.toLowerCase().toTitleCase();
+
+  // special case for Côte d'Ivoire
+  return s.replace("D'i", "d'I");
+}
+
 function ingestEntry(entry) {
   return {
     code: entry.Ccy && entry.Ccy._,
     number: entry.CcyNbr && entry.CcyNbr._,
     digits: (entry.CcyMnrUnts && parseInt(entry.CcyMnrUnts._)) || 0,
     currency: entry.CcyNm && entry.CcyNm._,
-    countries: (entry.CtryNm && entry.CtryNm._ && [entry.CtryNm._.toLowerCase().toTitleCase()]) || []
+    isFund: (entry.CcyNm && entry.CcyNm.IsFund) === 'true',
+    countries: (entry.CtryNm && entry.CtryNm._ && [titleCase(entry.CtryNm._)]) || []
   };
 }
 
