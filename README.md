@@ -13,7 +13,7 @@ console.log(cc.code('EUR'));
 /*
 {
 	code: 'EUR',
-	number: 978,
+	number: '978',
 	digits: 2,
 	currency: 'Euro',
 	countries: [
@@ -35,7 +35,7 @@ console.log(cc.number(967));
 /*
 {
 	code: 'ZMW',
-	number: 967,
+	number: '967',
 	digits: 2,
 	currency: 'Zambian kwacha',
 	countries: [ 'zambia' ] }
@@ -52,13 +52,13 @@ console.log(cc.country('colombia'));
 [
 	{
 		code: 'COP',
-		number: 170,
+		number: '170',
 		digits: 2,
 		currency: 'Colombian peso',
 		countries: [ 'colombia' ]
 	}, {
 		code: 'COU',
-		number: 970,
+		number: '970',
 		digits: 2,
 		currency: 'Unidad de Valor Real',
 		countries: [ 'colombia' ]
