@@ -18,8 +18,10 @@ var country = function(country) {
   });
 };
 var number = function(number) {
+  number = ('000' + number).slice(-3);
+
   return first(data, function(c) {
-    return c.number === String(number);
+    return c.number === number;
   });
 };
 var codes = function() {
