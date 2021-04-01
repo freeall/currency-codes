@@ -1,14 +1,22 @@
 var cc = require('./index');
 var assert = require('assert');
 
-assert(cc.code('EUR').countries.length === 35);
-assert(cc.code('IDR').digits === 2);
-assert(cc.number('967').currency === 'Zambian Kwacha');
-assert(cc.number(967).currency === 'Zambian Kwacha');
-assert(cc.country('Colombia').length === 2);
-assert(cc.country('colombia').length === 2);
-assert(cc.codes().length === 178);
-assert(cc.countries().length === 250);
-assert(cc.numbers().length === 178);
-assert(cc.numbers()[0] === '784');
-assert(cc.data.length == 178);
+// test properties of specific currencies
+
+assert.strictEqual(cc.code('EUR').countries.length, 35, 'The Euro is used by 35 countries');
+assert.strictEqual(cc.code('IDR').digits, 2, 'The Indonesian Rupiah uses a fraction of 2 digits');
+assert.strictEqual(cc.number('967').currency, 'Zambian Kwacha', 'Zambian Kwacha is number 967');
+assert.strictEqual(cc.country('Colombia').length, 2, 'Colombia has 2 currencies');
+assert.strictEqual(typeof cc.code('JPY').number, 'string', 'Currency numbers are strings');
+
+// test input flexibility
+
+assert.strictEqual(cc.number(967).currency, 'Zambian Kwacha', 'Currencies can be found with number as integer');
+assert.deepStrictEqual(cc.country('colombia'), cc.country('Colombia'), 'Searching by country name is case-insensitive');
+
+// test totals
+
+assert.strictEqual(cc.data.length, 179, 'There are a total of 179 currencies');
+assert.strictEqual(cc.codes().length, cc.data.length, 'There are as many currency codes as there are currencies');
+assert.strictEqual(cc.numbers().length, cc.data.length, 'There are as many currency numbers as there are currencies');
+assert.strictEqual(cc.countries().length, 260, 'There are a total of 260 countries');
