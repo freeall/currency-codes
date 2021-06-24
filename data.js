@@ -98,7 +98,7 @@ module.exports = [
     "code": "AZN",
     "number": "944",
     "digits": 2,
-    "currency": "Azerbaijan Manat",
+    "currency": "Azerbaijani Manat",
     "countries": [
       "Azerbaijan"
     ]
