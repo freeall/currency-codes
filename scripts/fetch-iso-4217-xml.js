@@ -20,7 +20,7 @@ async function download(url, path) {
 }
 
 async function downloadIso() {
-  const url = 'https://www.currency-iso.org/dam/downloads/lists/list_one.xml';
+  const url = 'https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml';
   const path = 'iso-4217-list-one.xml';
 
   try {
