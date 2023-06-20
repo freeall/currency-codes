@@ -70,7 +70,7 @@ fs.readFile(input, function(err, data) {
 
       const preamble = '/*\n' +
         '\tFollows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html\n' +
-        '\tSee https://www.currency-iso.org/dam/downloads/lists/list_one.xml\n' +
+        '\tSee https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml\n' +
         '\tData last updated ' + publishDate + '\n' +
         '*/\n\n';
 
