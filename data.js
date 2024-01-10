@@ -1232,6 +1232,15 @@ module.exports = [
     ]
   },
   {
+    "code": "SLE",
+    "number": "925",
+    "digits": 2,
+    "currency": "Leone",
+    "countries": [
+      "Sierra Leone"
+    ]
+  },
+  {
     "code": "SOS",
     "number": "706",
     "digits": 2,
