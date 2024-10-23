@@ -108,7 +108,7 @@ var cc = require('currency-codes');
 console.log(cc.countries());
 
 /*
-[ 
+[
 	'united arab emirates',
 	'afghanistan',
 	...
@@ -148,27 +148,27 @@ var cc = require('currency-codes');
 console.log(cc.publishDate);
 
 /*
-2018-08-29
+2024-06-25
 */
 ```
 
-## ISO-4217
+## Updating the data
 
-Fetch the latest copy of ISO-4217 from the [maintainer](https://www.currency-iso.org/) and update this library's currency data file.
+Fetch the latest copy of ISO-4217 from the [maintainer](https://www.iso.org/iso-4217-currency-codes.html) and update this library's currency data file.
 
 ```bash
 $ npm run iso
 
-> currency-codes@1.5.1 iso currency-codes
+> currency-codes@2.1.0 iso
 > npm run iso:fetch-xml && npm run iso:ingest-xml
 
 
-> currency-codes@1.5.1 iso:fetch-xml currency-codes
+> currency-codes@2.1.0 iso:fetch-xml
 > node scripts/fetch-iso-4217-xml.js
 
-Downloaded https://www.currency-iso.org/dam/downloads/lists/list_one.xml to iso-4217-list-one.xml
+Downloaded https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml to iso-4217-list-one.xml
 
-> currency-codes@1.5.1 iso:ingest-xml currency-codes
+> currency-codes@2.1.0 iso:ingest-xml
 > node scripts/ingest-iso-4217-xml.js
 
 Ingested iso-4217-list-one.xml into data.js
