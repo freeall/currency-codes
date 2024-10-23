@@ -1,7 +1,7 @@
 /*
 	Follows ISO 4217, https://www.iso.org/iso-4217-currency-codes.html
 	See https://www.currency-iso.org/dam/downloads/lists/list_one.xml
-	Data last updated 2018-08-29
+	Data last updated 2024-06-25
 */
 
 module.exports = [
@@ -458,6 +458,7 @@ module.exports = [
       "Andorra",
       "Austria",
       "Belgium",
+      "Croatia",
       "Cyprus",
       "Estonia",
       "European Union",
@@ -600,15 +601,6 @@ module.exports = [
     "currency": "Lempira",
     "countries": [
       "Honduras"
-    ]
-  },
-  {
-    "code": "HRK",
-    "number": "191",
-    "digits": 2,
-    "currency": "Kuna",
-    "countries": [
-      "Croatia"
     ]
   },
   {
@@ -880,7 +872,7 @@ module.exports = [
     "digits": 2,
     "currency": "Denar",
     "countries": [
-      "Macedonia (The Former Yugoslav Republic Of)"
+      "North Macedonia"
     ]
   },
   {
@@ -1223,8 +1215,8 @@ module.exports = [
     ]
   },
   {
-    "code": "SLL",
-    "number": "694",
+    "code": "SLE",
+    "number": "925",
     "digits": 2,
     "currency": "Leone",
     "countries": [
@@ -1345,7 +1337,7 @@ module.exports = [
     "digits": 2,
     "currency": "Turkish Lira",
     "countries": [
-      "Turkey"
+      "Türki̇ye"
     ]
   },
   {
@@ -1417,7 +1409,7 @@ module.exports = [
       "United States Minor Outlying Islands (The)",
       "United States of America (The)",
       "Virgin Islands (British)",
-      "Virgin Islands (U.S.)"
+      "Virgin Islands (u.s.)"
     ]
   },
   {
@@ -1463,6 +1455,15 @@ module.exports = [
     "currency": "Uzbekistan Sum",
     "countries": [
       "Uzbekistan"
+    ]
+  },
+  {
+    "code": "VED",
+    "number": "926",
+    "digits": 2,
+    "currency": "Bolívar Soberano",
+    "countries": [
+      "Venezuela (Bolivarian Republic Of)"
     ]
   },
   {
@@ -1602,7 +1603,7 @@ module.exports = [
     "countries": [
       "Benin",
       "Burkina Faso",
-      "Côte d'Ivoire",
+      "Côte D'ivoire",
       "Guinea-Bissau",
       "Mali",
       "Niger (The)",
@@ -1705,10 +1706,10 @@ module.exports = [
     ]
   },
   {
-    "code": "ZWL",
-    "number": "932",
+    "code": "ZWG",
+    "number": "924",
     "digits": 2,
-    "currency": "Zimbabwe Dollar",
+    "currency": "Zimbabwe Gold",
     "countries": [
       "Zimbabwe"
     ]
